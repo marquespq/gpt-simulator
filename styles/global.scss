@@ -1,0 +1,7 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./variables.scss";
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $white;
+}
