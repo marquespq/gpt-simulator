@@ -1,27 +1,9 @@
 "use client";
 
-import React from "react";
-import CustomButton from "../components/Button";
+import EventFetcher from "@/components/EventFetcher";
 
-export default function Home() {
-  const handleClick = () => {
-    alert("Click!!");
-  };
+const Home: React.FC = () => {
+  return <EventFetcher />;
+};
 
-  return (
-    <div>
-      <h1>Welcome</h1>
-      <CustomButton
-        onClick={handleClick}
-        label="Success button"
-        variant="success"
-        style={{ margin: "10px" }}
-      />
-      <CustomButton
-        onClick={() => console.log("Click!!")}
-        label="Danger button"
-        variant="danger"
-      />
-    </div>
-  );
-}
+export default Home;

@@ -1,0 +1,38 @@
+.date-input {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+  background: #fafafa;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+  box-sizing: border-box;
+
+  &:focus {
+    border-color: #4f8ef7;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(79, 143, 247, 0.4);
+    color: #333;
+  }
+
+  &::placeholder {
+    color: #b0b0b0;
+    font-style: italic;
+  }
+
+  &::-webkit-calendar-picker-indicator {
+    filter: invert(40%);
+  }
+
+  &:hover {
+    border-color: #4f8ef7;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+}

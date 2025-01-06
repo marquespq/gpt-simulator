@@ -9,8 +9,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "GPT Simulator",
-  description: "Welcome GPT simulator :)",
+  title: "Você sabia?",
+  description: "Descubra fatos curiosos :)",
 };
 
 export default function RootLayout({
